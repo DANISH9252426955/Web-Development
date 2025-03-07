@@ -1,7 +1,7 @@
 //Naming Convention
 let userProfile="Admin";
 const max_property=5;
-class UserProfile{}
+class UserProfile{};
 
 //Hand on practice Real World Scenarios
 
