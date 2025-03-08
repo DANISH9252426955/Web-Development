@@ -23,3 +23,18 @@ var x="danish";
 
 console.log(y);
 let y="log in";
+
+
+// Var is a function scope and avoid block
+if (true) {
+    var message = "Hello";
+}
+console.log(message); //it will be run
+
+//let is block scope and only working inside a block
+if (true) {
+    let food = "Pizza";
+}
+console.log(food); //It will genrate error
+
+//
