@@ -68,3 +68,12 @@ function newUser(){
 
 let userDisply=newUser(); //store a memory
 console.log(userDisply);
+
+
+
+let obj = { value: 0 };
+for (let i = 0; i <=1000; i++) {
+    obj.value = i; // Reuses the same object
+}
+
+console.log(obj);
