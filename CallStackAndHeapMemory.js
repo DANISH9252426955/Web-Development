@@ -31,3 +31,15 @@ function detail(){
 detail();
 
 
+//Example for call stack and heap memory Work Together
+
+function createUser(name,city){
+    return {name,city};
+}
+function displayUse(){
+    let user= createUser("Danish","Jaipur);
+    console.log(`user name is ${user.name},city name is:-${user.city}`);
+}
+
+displayUse();
+
